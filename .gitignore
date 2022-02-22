@@ -38,3 +38,4 @@
 
 # Exclude CMake build folder
 BUILD
+build
