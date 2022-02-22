@@ -1,5 +1,12 @@
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 3.7)
 
 project (xnet)
 
+include("${CMAKE_SOURCE_DIR}/vendor/rapidjson.cmake")
+
+include_directories(
+    ${RAPIDJSON_INCLUDE_DIR}
+)
+
 add_executable(xnet xnet.cpp)
+add_dependencies(xnet rapidjson)
