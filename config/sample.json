@@ -1,0 +1,17 @@
+{
+    "accounts": [
+        {
+            "uuid": "99e95a2b-8b00-4f7f-a16e-df12e8c15c21",
+            "username": "MyTestUsername",
+            "neighbors": [
+                {
+                    "uuid": "ba435439-abe1-49c4-84b3-fa45804da548",
+                    "name": "MyNeighborUsername",
+                    "publicKey": "some_public_key",
+                    "privateKey": "some_private_key",
+                    "lastIpAddress": "127.0.0.1"
+                }
+            ]
+        }
+    ]
+}
