@@ -35,3 +35,6 @@
 # CDT-specific (C/C++ Development Tooling)
 .project
 .cproject
+
+# Exclude CMake build folder
+BUILD
